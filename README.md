@@ -1,2 +1,4 @@
-# TWP Design Co
-All designs and branding for The Whole Pye Design Co.
+# The Whole Pye Design Co.
+The website repo for thewholepye.com
+=======
+
