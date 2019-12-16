@@ -11,7 +11,7 @@ description: ""
 # Team names, titles and social links
 people:
 - name: Brian Pye
-  pic: 1
+  pic: brian
   position: Designer + Developer
   social:
     - title: dribbble
@@ -22,7 +22,7 @@ people:
       url: https://stackoverflow.com/users/1566325/beepye
 
 - name: Ronnie Pye
-  pic: 2
+  pic: ronnie
   position: Social Media + Marketing
   social:
     - title: instagram
