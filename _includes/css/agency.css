@@ -68,6 +68,11 @@ h6 {
     margin: 0 auto;
 }
 
+.img-circle {
+  max-height: 200px;
+  max-width: 200px;
+}
+
 .bg-white {
   background-color: #FFF;
 }
@@ -267,11 +272,6 @@ fieldset[disabled] .btn-xl.active {
       border-radius: 3px;
   }
 
-  .navbar-default.navbar-shrink {
-      padding: 10px 0;
-      background-color: #222;
-  }
-
   .navbar-default.navbar-shrink .navbar-brand {
       font-size: 1.5em;
   }
@@ -319,7 +319,6 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
   margin-bottom: 50px;
-  margin-right: 20px;
   font-family: {{ site.data.template.font.secondary }};
   font-size: 18px;
   font-style: italic;
@@ -356,14 +355,15 @@ header .intro-text .intro-heading {
   margin-bottom: 20px;
 }
 
-.block-module__header {
-  display: flex;
-  align-items: center;
-}
-
 .block-module__icon {
   font-size: 28px;
   margin-right: 20px;
+}
+
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
 }
 
 @media(min-width:768px) {
@@ -406,6 +406,10 @@ header .intro-text .intro-heading {
   .intro-cta {
     display: flex;
   }
+
+  .section-heading {
+    font-size: 40px;
+  }
 }
   
 @media(min-width: 992px) {
@@ -424,6 +428,10 @@ header .intro-text .intro-heading {
     align-items: center;
   }
 
+  .block-module__header {
+    margin-top: 0;
+  }
+
   .block-module__icon {
     margin: 0;
     font-size: 48px;
@@ -431,6 +439,10 @@ header .intro-text .intro-heading {
 
   .block-module__content {
     text-align: center;
+  }
+
+  .section-heading {
+    font-size: 48px;
   }
 }
 
@@ -462,12 +474,6 @@ header .intro-text .intro-heading {
 section {
   background-color: #fff;
   padding: 50px 0; 
-}
-
-section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 32px;
 }
 
 section h3.section-subheading {

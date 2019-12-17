@@ -2,11 +2,10 @@ url: https://thewholepye.com
 baseurl: 
 
 # Site settings
-title: TWP Design
+title: The Whole Pye Design Co.
 slug: TWP 
 email: beepye@gmail.com
 description: ""
-
 
 # Team names, titles and social links
 people:
@@ -31,15 +30,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: 
   - title: facebook
-    url:
+    url: https://www.facebook.com/TWPDesignCo/
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://stackoverflow.com/users/1566325/beepye
+  - title: github 
+    url: https://github.com/beepye
 
 # Postal address (add as many lines as necessary)
 address:
