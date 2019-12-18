@@ -1,15 +1,15 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Darby Road Home
+subtitle: Design + Development
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+date: 2019-12-15
+img: drh--main.jpg
+thumbnail: drh--thumb.jpg
+alt: Darby Road Home website
+project-date: October 2018
+client: Darby Road Home
+category: Design + Development
+description: Darby Road Home was an excellent and easy-to-please client. We redesigned their old website template with a more modern, minimal, and clean looking approach. Leveraging a popular CMS allows the owner and associates to make updates to the site themselves alleviating the need to hire outside help for what would be quick and easy changes.
 
 ---
