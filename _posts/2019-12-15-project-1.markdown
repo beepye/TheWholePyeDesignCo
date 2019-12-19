@@ -1,0 +1,15 @@
+---
+title: F.I.T.S.
+subtitle: Creating An Identity
+layout: default
+modal-id: 1
+date: 2019-12-15
+img: fits--main.jpg
+thumbnail: fits--thumb.jpg
+alt: image-alt
+project-date: April 2018
+client: First In Tree Services
+category: Brand Identity
+description: This was a full scale branding project which included brand guidelines for colors, typography, and iconography, a new website (design + development), new company logos, letterheads and print collateral for marketing, vehicle decal layouts, and company t-shirts and stickers (swag).
+
+---

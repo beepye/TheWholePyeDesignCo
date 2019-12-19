@@ -1,0 +1,15 @@
+---
+title: Darby Road Home
+subtitle: Design + Development
+layout: default
+modal-id: 2
+date: 2019-12-15
+img: drh--main.jpg
+thumbnail: drh--thumb.jpg
+alt: Darby Road Home website
+project-date: October 2018
+client: Darby Road Home
+category: Design + Development
+description: Darby Road Home has been an excellent and ongoing client. We recently redesigned their old website template with a more modern, minimal, and clean looking approach. By leveraging a popular and easy-to-use CMS it's allowed the owner and associates to make updates to the site themselves alleviating the need to hire outside help for what should be quick and manageable changes.<br><br>TWP Design Co. also handles the majority of their print collateral for in-house brochures, tags, etc, and at times creates promotional social media posts for special events.
+
+---

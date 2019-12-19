@@ -1,0 +1,15 @@
+---
+title: MeetCareGivers
+subtitle: Design Consultation
+layout: default
+modal-id: 3
+date: 2019-08-01
+img: mcg--main.jpg
+thumbnail: mcg--thumb.jpg
+alt: Meet Care Givers branding
+project-date: August—October 2019
+client: MeetCareGivers
+category: Design + Brand Consultation
+description: The MeetCareGivers project was a consulting effort to lead this start-up towards a new look, feel, and experience. The deliverables included a redesign of their highest-trafficked web page, updated user flow charts for their main entry points which included ways to increase lead generation, and updates/improvements to their branding to help them stand out in their industry niche.
+
+---
