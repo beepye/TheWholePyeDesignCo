@@ -25,6 +25,13 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.white-hover:hover,
+.white-hover:active,
+.white-hover:visited {
+  color: #FFF;
+  text-decoration: underline;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
