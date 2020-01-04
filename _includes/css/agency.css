@@ -21,7 +21,8 @@ body {
     color: #{{ site.data.template.color.muted }};
 }
 
-.text-primary {
+.text-primary,
+.text-primary:hover {
     color: #{{ site.data.template.color.primary }};
 }
 
