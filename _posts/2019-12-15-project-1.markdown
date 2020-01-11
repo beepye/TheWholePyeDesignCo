@@ -2,7 +2,7 @@
 title: F.I.T.S.
 subtitle: Creating An Identity
 layout: default
-modal-id: 1
+modal-id: brand-identity
 date: 2019-12-15
 img: fits--main.jpg
 thumbnail: fits--thumb.jpg
