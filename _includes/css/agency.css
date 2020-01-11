@@ -209,9 +209,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+    letter-spacing: -4px;
+    font-weight: 700;
     font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
-    font-weight: 700;
 }
 
 .navbar-default .navbar-brand:hover,
