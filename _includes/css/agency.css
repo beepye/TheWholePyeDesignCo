@@ -8,13 +8,21 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #{{ site.data.template.color.secondary-dark }};
+}
+
+header {
+  min-height: 35vh;
+  color: #{{ site.data.template.color.secondary-dark }};
   background-attachment: scroll;
-  background-image: url('{{ site.baseurl }}/img/header-bg.svg');
-  background-position-x: right;
-  background-position-y: 60px;
+  background-image: url('{{ site.baseurl }}/img/header-bg-2.svg');
   background-repeat: no-repeat;
-  background-size: 60%;
-  background-color: #001630;
+  background-size: cover;
+  background-position: center;
+  background-color: #f3b840;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
 
 .text-muted {
@@ -261,6 +269,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width: 768px) {
+
+  header {
+    min-height: 45vh;
+  }
+
   .navbar-default {
       border: 0;
       -webkit-transition: padding .3s;
@@ -284,23 +297,14 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 
-header {
-  color: #fff;
-  min-height: 50vh;
-}
-
-header .intro-text {
-  width: 55%;
+.intro-text {
   height: 100%;
+  padding: 75px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
+  align-items: center;
   text-shadow: 0px 0px 0px #000;
-}
-
-.intro-text > .btn {
-  text-align: center;
 }
 
 .intro-text > .divider {
@@ -308,42 +312,53 @@ header .intro-text {
 }
 
 .intro-cta {
-  display: none;
-  width: 200px;
-  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
   align-items: center;
+  justify-content: center;
   font-family: {{ site.data.template.font.primary }};
-  margin-bottom: 25px;
 }
 
-.intro-cta > .divider {
-  width: 97px;
+.intro-cta > .btn:last-of-type {
+  margin-left: 30px;
 }
 
-.intro-cta > a {
-  color: #FFF;
+.btn {
+  padding: 5px 15px;
+  font-size: 12px;
 }
 
-header .intro-text .intro-lead-in {
-  margin-bottom: 50px;
+.btn-secondary {
+  background-color: transparent;
+  border-width: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #{{ site.data.template.color.secondary-dark }};
+  border-color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.btn-secondary:hover {
+  color: #FFFFFF;
+  background-color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.intro-lead-in {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 50px;
+  text-align: center;
   font-family: {{ site.data.template.font.secondary }};
-  font-size: 18px;
-  font-style: italic;
-  line-height: 24px;
 }
 
-header .intro-text .intro-heading {
-  margin-bottom: 15px;
+.intro-heading {
+  margin-bottom: 5px;
   text-transform: uppercase;
   font-family: {{ site.data.template.font.primary }};
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-}
-
-.divider {
-  border-top: 1px solid #fff;
-  margin-bottom: 20px;
 }
 
 .flex {
@@ -375,45 +390,27 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
 
-  body {
-    background-size: 50%;
-  }
-
-  header {
-    min-height: 65vh;
-  }
-
-  header .intro-text {
-    margin-top: 150px;
-    margin-bottom: 75px;
-    height: auto;
-    width: 65%;
-  }
-
-  header .intro-text .intro-lead-in {
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 28px;
+  .intro-lead-in {
+    padding: 0 75px;
+    font-size: 18px;
     font-style: italic;
-    line-height: 36px;
+    line-height: 24px;
   }
 
-  header .intro-text .intro-heading {
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 54px;
-  }
-
-  .intro-text .divider {
-    width: 100%;
+  .intro-heading {
+    font-size: 36px;
+    line-height: 42px;
   }
 
   .intro-cta {
     display: flex;
+    margin-top: 35px;
   }
 
+  .intro-cta .btn {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
   .section-heading {
     font-size: 40px;
   }
@@ -421,13 +418,13 @@ header .intro-text .intro-heading {
   
 @media(min-width: 992px) {
 
-  header .intro-text .intro-heading {
-    font-size: 56px;
-    line-height: 60px;
+  header {
+    min-height: 60vh;
   }
 
-  .intro-text .divider {
-    width: 85%;
+  .intro-heading {
+    font-size: 56px;
+    line-height: 60px;
   }
 
   .block-module {
@@ -455,26 +452,20 @@ header .intro-text .intro-heading {
 
 @media(min-width: 1200px) {
 
-  body {
-    background-size: 60%;
-    background-position-y: -50px;
-  }
-  
   header {
     min-height: 80vh;
-  }
-
-  header .intro-text {
-    width: 50%;
-    height: 100%;
-    margin: 25px 0 0;
   }
 }
 
 @media(min-width: 1440px) {
 
-  body {
-    background-position-y: -80px;
+  .intro-heading {
+    font-size: 65px;
+  }
+
+  .intro-lead-in {
+    font-size: 24px;
+    margin-top: 10px
   }
 }
 
